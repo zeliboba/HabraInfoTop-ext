@@ -1,0 +1,9 @@
+{
+  "name": "Show info on top of article on habrahabr.ru",
+  "version": "0.1",
+  "description": "The script shows info bar containing date, votes and author on top of the article on habrahabr.ru.",
+  "content_scripts": [ {
+      "js": [ "load.js" ],
+      "matches": [ "http://habrahabr.ru/*", "http://*.habrahabr.ru/*" ]
+   } ]
+}
